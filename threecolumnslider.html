@@ -19,10 +19,12 @@
 
         <div id="carousel-container" class="cards">
             <div class="carousel-controls">
-                <!-- fas fa-chevron-right -->
-                <span class="fas fa-chevron-left myicons"></span>
-                <!-- <span class="carousel-control" onclick="nextSlide()">&#9655;</span> -->
-                <span class="carousel-control fas fa-chevron-right myicons" ></span>
+
+                <!-- <span class="carousel-control" onclick="prevSlide()">&#9665;</span>
+                <span class="carousel-control" onclick="nextSlide()">&#9655;</span> -->
+
+                <span class="fas fa-chevron-left myicons" onclick="prevSlide()"></span>
+                <span class="fas fa-chevron-right myicons" onclick="nextSlide()"></span>
 
             </div>
             <div id="carousel" class="carouselcards">
